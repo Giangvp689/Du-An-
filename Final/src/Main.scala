@@ -13,7 +13,7 @@ object Main {
     
 BBBB
 
-    // 3.1 Đọc dữ liệu nha  OK Nhe
+    // 3.1 Đọc dữ liệu nha  OK Nhe Xin chao nha
     val dfRaw = spark.read
       .option("header", "true")
       .option("inferSchema", "true")
