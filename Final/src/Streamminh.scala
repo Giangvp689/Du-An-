@@ -12,7 +12,7 @@ object Streamminh {
       .getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
 
-    // Khai báo schema tương ứng với file dữ liệu AAAAAA
+    // Khai báo schema tương ứng với file dữ liệu HHHHH
     val schema = StructType(List(
       StructField("Div", StringType, true),
       StructField("Date", StringType, true),
