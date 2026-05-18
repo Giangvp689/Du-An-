@@ -10,8 +10,10 @@ object Main {
       .getOrCreate()
 
     import spark.implicits._
+    
+BBBB
 
-   
+    // 3.1 Đọc dữ liệu nha  OK Nhe
     val dfRaw = spark.read
       .option("header", "true")
       .option("inferSchema", "true")
